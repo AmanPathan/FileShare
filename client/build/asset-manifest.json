@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ebbae33.css",
+    "main.js": "/static/js/main.254532fc.js",
+    "static/media/download.gif": "/static/media/download.5ccdfb933ea1d2cabab0.gif",
+    "static/media/link.png": "/static/media/link.04834a5a21b1f5e6ade9.png",
+    "static/media/success1.png": "/static/media/success1.e07907c447fbbc50b034.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.c826b0165560636baf0b.png",
+    "static/media/success.png": "/static/media/success.8bf102366f2fb56f2b2f.png",
+    "static/media/download1.png": "/static/media/download1.4ba2c2fc771027f91aa5.png",
+    "static/media/mail.png": "/static/media/mail.7f0432c3a7d36f687c69.png",
+    "static/media/cross.png": "/static/media/cross.3c662b752278fc52f408.png",
+    "static/media/folder1.png": "/static/media/folder1.5001ee5783b53b28d40a.png",
+    "static/media/check.png": "/static/media/check.f306c52678eeef9af6d6.png",
+    "static/media/upload.png": "/static/media/upload.109ae83a6d5dd0d5495d.png",
+    "index.html": "/index.html",
+    "main.1ebbae33.css.map": "/static/css/main.1ebbae33.css.map",
+    "main.254532fc.js.map": "/static/js/main.254532fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ebbae33.css",
+    "static/js/main.254532fc.js"
+  ]
+}
