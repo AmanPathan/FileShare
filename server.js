@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
-require('dotenv').config();
+const dotenv = require("dotenv");
+dotenv.config();
+
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 //connecting to Database
 const connectDb = require('./database/db.js');
