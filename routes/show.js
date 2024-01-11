@@ -13,7 +13,7 @@ router.get('/:uuid',async (req,res)=>{
             uuid:file.uuid,
             fileName:file.filename,
             fileSize:file.size,
-            download:`${APP_BASE_URL}/files/download/${file.uuid}`
+            download:`https://fileshare-app-8e4k.onrender.com/files/download/${file.uuid}`
         })
     }catch(err){
         return res.status(404).json({error:"Something Went Wrong!!"});
