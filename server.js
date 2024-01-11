@@ -25,9 +25,9 @@ app.get('*',(req,res)=>{
 })
 
 //Routes
-app.use('https://fine-gray-hippopotamus-shoe.cyclic.app/api/files',require('./routes/routes.js'));
-app.use('https://fine-gray-hippopotamus-shoe.cyclic.app/files',require('./routes/show.js'));
-app.use('https://fine-gray-hippopotamus-shoe.cyclic.app/files/download',require('./routes/download.js'));
+app.use('/api/files',require('./routes/routes.js'));
+app.use('/files',require('./routes/show.js'));
+app.use('/files/download',require('./routes/download.js'));
 
 app.listen(PORT,()=>{
     console.log(`Server is listening at PORT: ${PORT}`);
