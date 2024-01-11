@@ -4,7 +4,7 @@ const path = require('path');
 const File = require('../models/validate.js');
 const { v4: uuid4 } = require('uuid');
 
-const APP_BASE_URL = 'http://localhost:8000';
+const APP_BASE_URL = process.env.APP_BASE_URL;
 const date = new Date();
 let day = date.getDate();
 let month = date.getMonth() + 1;

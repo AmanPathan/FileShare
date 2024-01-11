@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const File = require('../models/validate.js');
-const APP_BASE_URL = 'http://localhost:8000';
+const APP_BASE_URL = process.env.APP_BASE_URL;
 
 router.get('/:uuid',async (req,res)=>{
     try{
