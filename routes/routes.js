@@ -14,7 +14,7 @@ let currentDate = `${day}-${month}-${year}`;
 
 //multer configuration
 let storage = multer.diskStorage({
-    destination: (req, file, cb) => cb(null, 'uploads/'),
+    destination: (req, file, cb) => cb(null, path.join(__dirname,'./uploads/')),
     filename: (req, file, cb) => {
         const uniqueName = `${currentDate}-${Math.round(Math.random() * 1E9)}${path.extname(file.originalname)}`;
         cb(null, uniqueName);
