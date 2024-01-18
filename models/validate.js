@@ -10,24 +10,17 @@ const fileSchema = new Schema ({
         type: String,
         required:true,
     },
-    size:{
-        type:Number,
-        required:true,
-    },
     uuid:{
         type:String,
+        required:true,
     },
-    format:{
+    filehash:{
         type:String,
         required:true,
     },
-    sender:{
+    fileSize:{
         type:String,
-    },
-    receiver:{
-        type:String,
-    },
-
+    }
 
 },{timestamps:true});
 
